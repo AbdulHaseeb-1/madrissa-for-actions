@@ -6,7 +6,6 @@ defaults:
         shell: bash
         working-directory: ./
 
-
 on:
     push:
         branches:
@@ -17,6 +16,11 @@ jobs:
     build:
         runs-on: "ubuntu-latest"
         steps:
+            - name: "Checkout Repo"
+              uses: actions/checkout@v4
+              with:
+                path: .
+                
             - name: "Install Deps"
               run: npm run dev
 
