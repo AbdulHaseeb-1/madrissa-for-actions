@@ -1,9 +1,17 @@
 name: 'GitHub CICD'
 run-name: "Testing APP"
+
+defaults:
+    run:
+        shell: bash
+        working-directory: ./
+
+
 on:
     push:
         branches:
             - main
+
 
 jobs:
     build:
