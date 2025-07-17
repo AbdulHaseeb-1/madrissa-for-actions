@@ -1,29 +1,10 @@
-name: 'GitHub CICD'
-run-name: "Testing APP"
+name: Preview
+run-name: ${{ github.actor}} is Running this action
 
-defaults:
-    run:
-        shell: bash
-        working-directory: ./
-
-on:
-    push:
-        branches:
-            - main
-
+on: [push]
 
 jobs:
-    build:
-        runs-on: "ubuntu-latest"
-        steps:
-            - name: "Checkout Repo"
-              uses: actions/checkout@v4
-              with:
-                path: .
-
-            - name: "Install Deps"
-              run: npm i
-
-            - name: "Build App"
-              run: npm run build
-      
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo " 😃 Starting the actoin "
