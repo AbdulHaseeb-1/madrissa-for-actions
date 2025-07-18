@@ -1,10 +1,30 @@
 name: Preview
 run-name: ${{ github.actor}} is Running this action
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      enviorment:
+        description: What Enviorment You Are In?
+        required: true
+        type: choice
+        options:    
+          - production
+          - staging 
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
       - run: echo " 😃 Starting the actoin "
+  
+  depoly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploying
+        run: echo "I am ready to deploy"    
