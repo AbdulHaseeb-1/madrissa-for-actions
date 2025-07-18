@@ -4,7 +4,7 @@ run-name: ${{ github.actor}} is Running this action
 on: 
   workflow_dispatch:
     inputs:
-      enviorment:
+      enviroment:
         description: What Enviorment You Are In?
         required: true
         type: choice
@@ -21,6 +21,7 @@ jobs:
       - run: echo " 😃 Starting the actoin "
   
   deploy:
+    if: ${{ github.event.inputs.enviroment == 'production' }}
     needs: build
     runs-on: ubuntu-latest
     steps:
