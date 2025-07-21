@@ -2,28 +2,11 @@ name: Preview
 run-name: ${{ github.actor}} is Running this action
 
 on: 
-  workflow_dispatch:
-    inputs:
-      enviroment:
-        description: What Enviorment You Are In?
-        required: true
-        type: choice
-        options:    
-          - production
-          - staging 
+  push:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🧾 Checkout Code
-        uses: actions/checkout@v3
-      - run: echo " 😃 Starting the actoin "
+  use-reusable:
+    uses: AbdulHaseeb-1/ci-templates/.github/workflows/build.yml@main
+    
+    
   
-  deploy:
-    if: ${{ github.event.inputs.enviroment == 'production' }}
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploying
-        run: echo "I am ready to deploy"    
