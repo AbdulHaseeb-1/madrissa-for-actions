@@ -1,0 +1,14 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/(home)/darulifta/(list)/[categorySlug]/page": [
+      "static/media/or3nQ6H_1_WfwkMZI_qYFrcdmhHkjko-s.p.be19f591.woff2",
+      "static/media/arabic-s.p.2885527e.woff2",
+      "static/media/urdu-s.p.c6ff423f.woff2",
+      "static/media/arabic-s.p.2885527e.woff2",
+      "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

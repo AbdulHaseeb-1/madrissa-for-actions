@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/urdu_e113e3c5.module.css"],"sourcesContent":["@font-face {\n    font-family: 'urdu';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../fonts/urdu.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}') format('woff2');\n    font-display: swap;\n    font-weight: 400;font-style: italic;\n}\n\n@font-face {\n    font-family: 'urdu Fallback';\n    src: local(\"Arial\");\n    ascent-override: 164.62%;\ndescent-override: 131.69%;\nline-gap-override: 0.00%;\nsize-adjust: 91.12%;\n\n}\n\n.className {\n    font-family: 'urdu', 'urdu Fallback';\n    font-weight: 400;\nfont-style: italic;\n\n}\n.variable {\n    --font-urdu: 'urdu', 'urdu Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;AAUA;;;;;;AAMA"}}]
+}

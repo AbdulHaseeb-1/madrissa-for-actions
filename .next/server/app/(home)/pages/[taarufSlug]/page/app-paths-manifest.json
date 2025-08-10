@@ -1,0 +1,3 @@
+{
+  "/(home)/pages/[taarufSlug]/page": "app/(home)/pages/[taarufSlug]/page.js"
+}

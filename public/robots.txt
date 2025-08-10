@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jiallama.edu.pk
+
+# Sitemaps
+Sitemap: https://jiallama.edu.pk/sitemap.xml

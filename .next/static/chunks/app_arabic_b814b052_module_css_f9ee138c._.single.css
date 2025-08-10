@@ -1,0 +1,29 @@
+/* [project]/app/arabic_b814b052.module.css [app-client] (css) */
+@font-face {
+  font-family: arabic;
+  src: url("../media/arabic-s.p.2885527e.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: arabic Fallback;
+  src: local(Arial);
+  ascent-override: 124.28%;
+  descent-override: 70.1%;
+  line-gap-override: 0.0%;
+  size-adjust: 90.44%;
+}
+
+.arabic_b814b052-module__NNaORW__className {
+  font-family: arabic, arabic Fallback;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.arabic_b814b052-module__NNaORW__variable {
+  --font-arabic: "arabic", "arabic Fallback";
+}
+
+/*# sourceMappingURL=app_arabic_b814b052_module_css_f9ee138c._.single.css.map*/

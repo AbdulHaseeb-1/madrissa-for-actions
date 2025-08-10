@@ -1,0 +1,30 @@
+/* [project]/components/darulifta/arabic_8d29260a.module.css [app-client] (css) */
+@font-face {
+  font-family: arabic;
+  src: url("../media/arabic-s.p.2885527e.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: arabic Fallback;
+  src: local(Arial);
+  ascent-override: 124.28%;
+  descent-override: 70.1%;
+  line-gap-override: 0.0%;
+  size-adjust: 90.44%;
+}
+
+.arabic_8d29260a-module__ACzx6q__className {
+  font-family: arabic, arabic Fallback;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.arabic_8d29260a-module__ACzx6q__variable {
+  --font-arabic: "arabic", "arabic Fallback";
+}
+
+
+/*# sourceMappingURL=components_darulifta_arabic_8d29260a_module_b8e50963.css.map*/

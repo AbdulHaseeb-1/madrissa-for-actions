@@ -1,0 +1,9 @@
+@media (max-width: 729px) {
+  .description > span {
+    font-size: 0.775rem; /* 14px, equivalent to text-sm */
+}
+ .description > p {
+    display: inline;
+    font-size: 1.0rem; /* 14px, equivalent to text-sm */
+}
+}

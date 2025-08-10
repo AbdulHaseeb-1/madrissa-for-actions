@@ -1,0 +1,13 @@
+/* [project]/public/css/root.css [app-client] (css) */
+@media (width <= 729px) {
+  .description > span {
+    font-size: .775rem;
+  }
+
+  .description > p {
+    font-size: 1rem;
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=public_css_root_css_f9ee138c._.single.css.map*/

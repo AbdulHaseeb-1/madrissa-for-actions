@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/public/css/root.css"],"sourcesContent":["@media (max-width: 729px) {\r\n  .description > span {\r\n    font-size: 0.775rem; /* 14px, equivalent to text-sm */\r\n}\r\n .description > p {\r\n    display: inline;\r\n    font-size: 1.0rem; /* 14px, equivalent to text-sm */\r\n}\r\n}"],"names":[],"mappings":"AAAA;EACE;;;;EAGD"}}]
+}

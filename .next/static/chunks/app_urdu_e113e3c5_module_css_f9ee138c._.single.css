@@ -1,0 +1,29 @@
+/* [project]/app/urdu_e113e3c5.module.css [app-client] (css) */
+@font-face {
+  font-family: urdu;
+  src: url("../media/urdu-s.p.c6ff423f.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: urdu Fallback;
+  src: local(Arial);
+  ascent-override: 164.62%;
+  descent-override: 131.69%;
+  line-gap-override: 0.0%;
+  size-adjust: 91.12%;
+}
+
+.urdu_e113e3c5-module__A29kxW__className {
+  font-family: urdu, urdu Fallback;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.urdu_e113e3c5-module__A29kxW__variable {
+  --font-urdu: "urdu", "urdu Fallback";
+}
+
+/*# sourceMappingURL=app_urdu_e113e3c5_module_css_f9ee138c._.single.css.map*/

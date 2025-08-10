@@ -1,0 +1,217 @@
+:root {
+  --font-size-h1-lg: 2.5rem;
+  --font-size-h1-md: 2rem;
+  --font-size-h1-sm: 1.6rem;
+
+  --font-size-h2-lg: 2.3rem;
+  --font-size-h2-md: 1.8rem;
+  --font-size-h2-sm: 1.5rem;
+
+  --font-size-h3-lg: 2rem;
+  --font-size-h3-md: 1.5rem;
+  --font-size-h3-sm: 1.2rem;
+
+  --font-size-h4-lg: 1.8rem;
+  --font-size-h4-md: 1.4rem;
+  --font-size-h4-sm: 1.1rem;
+
+  --font-size-p-lg: 1.6rem;
+  --font-size-p-md: 1.3rem;
+  --font-size-p-sm: 1.1rem;
+
+  --font-size-li-lg: 1.6rem;
+  --font-size-li-md: 1.3rem;
+  --font-size-li-sm: 1.1rem;
+
+  --font-size-code-lg: 0.9rem;
+  --font-size-code-md: 0.8rem;
+  --font-size-code-sm: 0.7rem;
+
+  --font-size-blockquote-lg: 1.8rem;
+  --font-size-blockquote-md: 1.4rem;
+  --font-size-blockquote-sm: 1.2rem;
+}
+
+.ProseMirror .content > ul,
+.ProseMirror .content > ol {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: black;
+}
+
+.ProseMirror .content > ol {
+  list-style-type: decimal;
+}
+
+@font-face {
+  font-family: "Urdu";
+  src: url("/fonts/urdu.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Arabic";
+  src: url("/fonts/arabic.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: "Pashto";
+  src: url("/fonts/pashto.woff2") format("woff2");
+  font-display: swap;
+} */
+
+.ProseMirror {
+  font-family: "Urdu", serif;
+}
+
+.arabic {
+  font-family: "Arabic", serif;
+  font-size: 2.2rem;
+  direction: rtl;
+
+  /* word-spacing: 0.12rem; */
+
+  @media (max-width: 1024px) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+    /* letter-spacing: 0.01rem; */
+  }
+}
+
+.content > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: pretty;
+  margin-top: 2rem;
+}
+
+.content > h1 {
+  font-size: var(--font-size-h1-lg);
+  line-height: 5.5rem;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-h1-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-h1-sm);
+  }
+}
+
+.content > h2 {
+  font-size: var(--font-size-h2-lg);
+  line-height: 5rem;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-h2-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-h2-sm);
+  }
+}
+
+.content > h3 {
+  font-size: var(--font-size-h3-lg);
+  line-height: 5.5rem;
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-h3-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-h3-sm);
+  }
+}
+
+.content > h4,
+h5,
+h6 {
+  line-height: 3.5rem;
+  font-size: var(--font-size-h4-lg);
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-h4-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-h4-sm);
+  }
+}
+
+.content > p {
+  font-size: var(--font-size-p-lg);
+  line-height: 3rem;
+  word-spacing: 0.15rem;
+  
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-p-md);
+    line-height: 2.4rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-p-sm);
+    line-height: 2.5rem;
+  }
+}
+
+.content > pre {
+  font-size: var(--font-size-code-lg);
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-code-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-code-sm);
+  }
+}
+
+.content > blockquote {
+  font-size: var(--font-size-blockquote-lg);
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-blockquote-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-blockquote-sm);
+  }
+}
+
+.content > hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0.5px solid rgba(0, 0, 0, 0.149);
+}
+
+.content blockquote {
+  padding: 5px 30px;
+}
+
+.content blockquote > p > span {
+  line-height: 3rem;
+}
+
+.content li {
+  font-size: var(--font-size-li-lg);
+  line-height: 3rem;
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-li-md);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-li-sm);
+  }
+}
+
+strong {
+  font-weight: bold;
+}

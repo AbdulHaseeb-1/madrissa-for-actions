@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Madrissa/madrisssa-washeed-website/app/not-found.tsx"],"sourcesContent":["import { Metadata } from \"next\";\r\n\r\nexport const metadata: Metadata = {\r\n  robots: {\r\n    index: false,\r\n    follow: true,\r\n  },\r\n};\r\nexport default function NotFound() {\r\n  return (\r\n    <div className=\"min-h-screen flex flex-col justify-center items-center bg-gray-50 px-4\">\r\n      <h1 className=\"text-2xl md:text-3xl font-bold text-neutral-800 mb-2\">\r\n        صفحہ نہیں ملا | 404{\" \"}\r\n      </h1>\r\n      <p className=\"text-gray-700 text-center max-w-md text-xs md:text-base\">\r\n        معذرت! آپ جس صفحے کو تلاش کر رہے ہیں وہ موجود نہیں ہے یا ہٹا دیا گیا ہے۔\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEO,MAAM,WAAqB;IAChC,QAAQ;QACN,OAAO;QACP,QAAQ;IACV;AACF;AACe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;;oBAAuD;oBAC/C;;;;;;;0BAEtB,8OAAC;gBAAE,WAAU;0BAA0D;;;;;;;;;;;;AAK7E","debugId":null}}]
+}
